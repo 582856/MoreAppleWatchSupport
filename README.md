@@ -1,6 +1,8 @@
+仅供学习交流。
+
 # MoreAppleWatchSupport
 
-让小米手机通过“设备互联”向 Apple Watch 转发更多应用的消息，并支持同步小米超级岛。
+让小米手机通过“设备互联”向 Apple Watch 转发更多应用的消息。
 
 ## 通知显示
 
@@ -17,5 +19,3 @@
   <img src="docs/images/settings.png" alt="应用通知管理" width="48%">
   <img src="docs/images/watch-notification.png" alt="Apple Watch 通知效果" width="48%">
 </p>
-
-仅供学习交流。
