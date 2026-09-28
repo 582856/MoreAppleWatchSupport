@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="false"
+        android:description="@string/xposed_description"
+        android:extractNativeLibs="false"
+        android:hasCode="true"
+        android:label="Apple Watch 通知扩展">
+        <activity
+            android:name=".LauncherActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="枫彡制作，让小米支持转发更多应用消息给AppleWatch，仅供学习交流" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="101" />
+    </application>
+</manifest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">枫彡制作，让小米支持转发更多应用消息给AppleWatch，仅供学习交流</string>
+</resources>
